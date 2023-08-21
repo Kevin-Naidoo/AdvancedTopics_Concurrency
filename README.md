@@ -398,6 +398,8 @@ Process.info(#PID<XXXX.XXX.XXX>)
 ```
 Inspecting a remote process provides insights into its current state, such as memory usage and status.
 
+![process_info](process_info.png)
+
 ##### Step 5: Disconnect Nodes
 
 On either node
