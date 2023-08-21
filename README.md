@@ -363,6 +363,7 @@ iex --name node2@127.0.0.1
 ```
 
 Starting two nodes with unique names allows them to communicate and identify each other.
+![connect_nodes_manually](Example 5.1.png)
 
 ##### Step 2: Connect Nodes - Use 2 different terminals here
 
