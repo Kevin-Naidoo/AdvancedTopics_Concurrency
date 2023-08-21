@@ -433,6 +433,9 @@ Disconnecting nodes can help in simulating network failures and understanding ho
 #### Further Exploration:
 
 1. **Running Functions on Different Nodes**: Execute various functions on different nodes to understand remote execution.
+
+![node_spawn](node_spawn.png)
+
 2. **Disconnecting and Reconnecting Nodes**: Experiment with disconnecting and reconnecting nodes to simulate network issues.
 3. **Monitoring Processes Across Nodes**: Use `Process.monitor/1` to monitor processes across nodes.
 4. **Observer Tool**: Utilize the `:observer.start/0` tool for a graphical view of the system.
