@@ -429,6 +429,7 @@ Disconnecting nodes can help in simulating network failures and understanding ho
 - **Hint**: Run `:observer.start/0` to start the Observer tool.
 - **Sample Task**: Start the Observer and explore different tabs like "Load Charts," "Applications," and "Processes."
 
+![load_chart](load_chart.png)
 #### Further Exploration:
 
 1. **Running Functions on Different Nodes**: Execute various functions on different nodes to understand remote execution.
