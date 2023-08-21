@@ -235,7 +235,7 @@ Add Guard Clauses: Include guard clauses to validate inputs.
 
 [Elixir Supervisors](https://elixir-lang.org/getting-started/mix-otp/supervisor-and-application.html)
 
-[Elixir Registry](https://hexdocs.pm/elixir/Registry.html
+[Elixir Registry](https://hexdocs.pm/elixir/Registry.html)
 
 # Part 5: Distributed Systems in Elixir
 
