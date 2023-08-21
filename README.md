@@ -414,6 +414,7 @@ Disconnecting nodes can help in simulating network failures and understanding ho
 - **Hint**: Use `Node.disconnect/1` and `Node.connect/1`.
 - **Sample Task**: Disconnect nodes, then reconnect and verify the connection using `Node.list()`.
 
+![node_disconnnect](node_disconnect.png)
 #### Exercise 5.2: Handle Network Partitions
 
 - **Description**: Simulate network partitions and reconnecting nodes. Observe how message passing is affected.
