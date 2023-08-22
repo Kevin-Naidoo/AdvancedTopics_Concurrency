@@ -421,7 +421,7 @@ Disconnecting nodes can help in simulating network failures and understanding ho
 - **Hint**: Utilize `:net_kernel.disconnect/1` and `:net_kernel.connect/1`.
 - **Sample Task**: Create a network partition, send messages between nodes, and observe the behavior.
 
-![node_kernel](node_kernel.png)
+![node_kernel](net_kernel.png)
 
 #### Exercise 5.3: Visualize System Information
 
