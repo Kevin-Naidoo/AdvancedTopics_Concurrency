@@ -31,9 +31,9 @@ The are 5 classes of IP addresses.
 
 ### Classes:
 
- `Class A` -> Host heavy networks: 2<sup>24</sup>
- `Class B` -> 2<sup>16</sup>
- `Class C` -> Largest IP range: 2<sup>8</sup>
- `Class D` -> Multicast
+ `Class A` -> Host heavy networks -> 2<sup>24</sup> <br>
+ `Class B` -> 2<sup>16</sup> <br>
+ `Class C` -> Largest IP range: 2<sup>8</sup> <br>
+ `Class D` -> Multicast <br>
 
 Between `Class A` & `Class B` is 127.0.0.0 --> These are reserved on you computer for testing. The 127 triggers **loopback**
