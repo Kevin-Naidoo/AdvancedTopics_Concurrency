@@ -15,7 +15,7 @@ Internet Protocol - Opens up communication and allows for devices to connect to 
 	* If IP address you are trying to connect to outside its network, it has to talk to its default gateway.
 	* Three IP addresses are reserved - The network address: `192.168.1.0` & the broadcast address: `192.168.1.255` & the default gateway: `192.169.1.1`
 
-## Are we out of IP Addressing :joy:
+## Are we out of IP Addressing :anguished:
 
 There are 2<sup>32</sup> IP addresses available.
 The are 5 classes of IP addresses.
