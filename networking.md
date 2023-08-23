@@ -20,6 +20,7 @@ Internet Protocol - Opens up communication and allows for devices to connect to 
 There are 2<sup>32</sup> IP addresses available.
 The are 5 classes of IP addresses.
 
+
 | | Range                       | Subnet Mask   |
 | | --------------------------  | ------------- |
 |A| 1.0.0.0 - 126.255.255.2555  | 255.0.0.0     |
@@ -30,9 +31,9 @@ The are 5 classes of IP addresses.
 
 ### Classes:
 
-	* `Class A` -> Host heavy networks: 2<sup>24</sup>
-	* `Class B` -> 2<sup>16</sup>
-	* `Class C` -> Largest IP range: 2<sup>8</sup>
-	* `Class D` -> Multicast
+ `Class A` -> Host heavy networks: 2<sup>24</sup>
+ `Class B` -> 2<sup>16</sup>
+ `Class C` -> Largest IP range: 2<sup>8</sup>
+ `Class D` -> Multicast
 
-Between `Class A` & `Class B` is 127.0.0.0 -> These are reserved on you computer for testing. The 127 triggers **loopback**
+Between `Class A` & `Class B` is 127.0.0.0 --> These are reserved on you computer for testing. The 127 triggers **loopback**
