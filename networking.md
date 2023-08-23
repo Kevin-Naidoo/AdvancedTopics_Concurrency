@@ -1,4 +1,4 @@
-## What is an IP Adress?
+## What is an IP Address?
 
 Internet Protocol - Opens up communication and allows for devices to connect to the internet.
 
@@ -37,3 +37,26 @@ The are 5 classes of IP addresses.
  `Class D` -> Multicast <br>
 
 Between `Class A` & `Class B` is 127.0.0.0 --> These are reserved on you computer for testing. The 127 triggers **loopback**
+
+## Private IP Addresses and NAT:
+
+`RFC 1918` - Private IP addresses. You need a public IP Address to interact with the internet. 
+
+
+| | Range                       | Subnet Mask   |
+|--- | --------------------------  | ------------- |
+|A| 10.0.0.0 - 10.255.255.255 | 255.0.0.0     |
+|B| 172.16.0.0 - 172.31.255.255 | 255.255.0.0   |
+|C| 192.168.0.0 - 192.168.255.255 | 255.255.255.0 |
+
+
+Private IP are not routable on the internet. So...<br>
+### NAT -> Network Address Translation
+
+	* Router performs NAT
+	* Translates private IP into public IP via Router
+	* It allocates 1 IP Address by ISP -> Internet Service Provider
+	* When request is sent back, it is routed back to that specific device
+	* This soultion did not last because we still ran out of IP Addresses <br>
+
+### Thus intoduction to IPv6 -> 2<sup>128</sup> 
