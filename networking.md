@@ -57,6 +57,80 @@ Private IP are not routable on the internet. So...<br>
 	* Translates private IP into public IP via Router
 	* It allocates 1 IP Address by ISP -> Internet Service Provider
 	* When request is sent back, it is routed back to that specific device
-	* This soultion did not last because we still ran out of IP Addresses <br>
+	* This soultion did not last because we still ran out of IP Addresses.
 
-### Thus intoduction to IPv6 -> 2<sup>128</sup> 
+### Thus intoduction to IPv6 -> 2<sup>128</sup>
+
+## Your IP Address in the Matrix
+
+* IP is referred in octats
+* This means each 255 -> is a representation of an 8-bit number.
+* An example of an IP Address using binary is: `11000000.10101000.00000001.00010101` 
+* This represents **4 Bytes**.
+
+## Subnet masking:
+
+**192.168.32.5**
+
+**1100 0000.1010 1000.0010 000.0000 0101**
+
+`Network bits` - Tells us which network we are on. Cannot change.
+`Host bit` - Can be assigned to a host.
+
+`255.255.255.0`
+`255.255.254.0`
+
+## Subnetting your home:
+
+Example IP: `192.168.1.0/24` <br>
+
+**Subnet mask** -> `255.255.255.0` <br>
+1111 1111. 1111 1111. 1111 1111. 0000 0000
+
+Lets create 4 networks: We need to change 2 bits... <br>
+1111 1111. 1111 1111. 1111 1111. 1100 0000
+
+Steps to create subnet mask:
+1. Use the Nosferatz chart to calculate how many host bits you need to hack.
+2. Hack the host bits.
+3. Find the increment.
+4. Create your networks
+
+### The 4 (subnets) networks:
+	* 192.168.1.0 - 192.168.1.63
+	* 192.168.1.64 - 192.168.1.127
+	* 192.168.1.128 - 192.168.1.191
+	* 192.168.1.192 - 192.168.1.255
+
+How many hosts are available?
+
+Since we looking at the sixth bit... 2<sup>6</sup> = 64
+thus, 64 available hosts.
+
+## Subnetting in reverse:
+
+![subnet](reverse_subnetting.png)
+
+	* type -> ipconfig / ifconfig
+	* IP Address..................: 172.17.16.255
+	* Subnet Mask.................: 255.255.240.0
+	* Default Gateway.............: 172.17.0.1
+
+`255.255.240.0` <br> 
+`1111 1111. 1111 1111. 111 000. 000 000`
+
+Let get our increment: 
+* It is the last bit in our subnet mask:
+	* |128|64|32|16|8|4|2|
+	* | 1 |1 |1 |1 |0|0|0|
+	* Thus the last is 16. 
+
+* 172.17.0.0 - 172.17.15.255
+* 172.17.16.0 - 172.17.31.255
+* 172.17.32.0 - ...
+* 172.17.64.0 - ...
+* ....
+
+The router is situated at 172.17.0.1 <br>
+Beatrice is at 172.17.16.255 which is in the range of: 172.17.16.0- 172.17.31.255 <br>
+Thus, Beatrice is not able to get access to the internet.  
