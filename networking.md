@@ -117,7 +117,7 @@ thus, 64 available hosts.
 	* Default Gateway.............: 172.17.0.1
 
 `255.255.240.0` <br> 
-`1111 1111. 1111 1111. 111 000. 000 000`
+`1111 1111. 1111 1111. 111 000. 000 000`<br>
 
 Let get our increment: 
 * It is the last bit in our subnet mask:
