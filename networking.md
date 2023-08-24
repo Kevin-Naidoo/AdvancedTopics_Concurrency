@@ -102,7 +102,7 @@ Steps to create subnet mask:
 	* 192.168.1.128 - 192.168.1.191
 	* 192.168.1.192 - 192.168.1.255
 
-How many hosts are available?
+How many hosts are available??
 
 Since we looking at the sixth bit... 2<sup>6</sup> = 64
 thus, 64 available hosts.
