@@ -133,4 +133,5 @@ Let get our increment:
 
 The router is situated at 172.17.0.1 <br>
 Beatrice is at 172.17.16.255 which is in the range of: 172.17.16.0- 172.17.31.255 <br>
-Thus, Beatrice is not able to get access to the internet.  
+Thus, Beatrice is not able to get access to the internet.
+EOF.  
