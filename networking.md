@@ -107,7 +107,7 @@ How many hosts are available?
 Since we looking at the sixth bit... 2<sup>6</sup> = 64
 thus, 64 available hosts.
 
-## Subnetting in reverse:
+## Subnetting in reverse::
 
 ![subnet](reverse_subnetting.png)
 
